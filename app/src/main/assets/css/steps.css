@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans_extrabold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans_regular.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans_light.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* -------------------------------------------------------------------------- *\
+    $ Custoom Title
+\* ---------------------------------------------------------------------------*/
+
+body {
+    background: #efefef;
+    height: 100%;
+    font-family: 'Open Sans', Arial, Helverita, serif;
+    font-weight: 600;
+}
+/* Evo = #143a84 */
+header {
+    background-color: #4a6da7;
+    border-top: 1px dashed #efefef;
+    border-bottom: 1px dashed #efefef;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+h1.step-title {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0px;
+    font-size: 18px;
+    margin: 0px;
+    color: white;
+    
+    text-shadow: 1px 0px 3px #5a7203, 0px 1px 3px #5a7203;
+}
+h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0px;
+    font-size: 14px;
+    margin: 0px;
+    color: white;
+    
+    text-shadow: 1px 0px 3px #5a7203, 0px 1px 3px #5a7203;
+}
+
+section{
+  margin: 1em;
+  font-size: 16px;
+  height: 100%;
+  margin-bottom: 2em;
+}
+footer{
+  background-color: #4a6da7;
+  border-top: 1px dashed #efefef;
+  border-bottom: 1px dashed #efefef;
+  padding: 15px 25px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
